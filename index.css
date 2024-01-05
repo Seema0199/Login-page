@@ -1,0 +1,200 @@
+*{
+       margin: 0;
+       padding: 0;
+}
+
+
+#wrapper{
+       height: 100vh;
+       width: 200vh;
+}
+
+.container{
+
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       margin-top: 110px;
+       gap:50px;
+       /* margin-left:50px ; */
+     
+}
+
+.content{
+       display: flex;
+       flex-direction:column ;
+       /* gap: 10px; */
+
+}
+
+#para{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.li-tag{
+
+       display: flex;
+       flex-direction: column;
+       gap:8px;
+
+
+}
+
+
+ .tab{
+       margin-top: 40px;
+       position: relative;
+       right: 8%;
+ }
+
+
+ .form-container{
+       
+ box-shadow: -10px -10px 20px rgb(198, 190, 190), 10px 10px 15px rgb(198, 190, 190);
+ /* height: 550px;
+ width: 400px; */
+  /* border: 1px solid black; */
+ border-radius: 10px; 
+ 
+  padding-left:30px;
+ }
+
+ h2{
+       font-size: 25px;
+       text-align: center;
+       margin-top:20px ;
+       margin-right: 10px;
+
+
+ }
+
+ button{
+        height: 30px;
+       width: 300px;  
+       margin-top: 30px;
+       background-color: rgb(19, 19, 234);
+       color: white;
+       margin-bottom: 10px;
+       padding-bottom: 5px;
+       box-sizing: border-box;
+       
+ }
+ .gm{
+       position: relative;
+       right: 70px;
+       top: 2px;
+ }
+
+ /* hr{
+       width: 30px;
+ } */
+
+#coin{
+       font-size: 15px;
+      
+}
+
+
+/* .form{
+       box-shadow: -10px -10px 20px rgb(226, 218, 218), 10px 10px 15px rgb(198, 190, 190);
+} */
+/* .line{
+       display: flex;
+       flex-direction: row;
+       margin-bottom: 10px;
+       justify-content: center;
+} */
+
+.line {
+       display: flex;
+       align-items: center;
+       flex-direction: row; /* Align elements vertically */
+     }
+  
+     
+     .custom-hr {
+       width: 70px; /* Set the width to 100% to span the entire container */
+       margin: 10px 0; /* Add margin for spacing */
+     }
+     
+    #coin{
+       font-size: 16px;
+       margin-left: 3px;
+       margin-right: 3px;
+      
+    }
+
+   .in{
+       height: 30px;
+       width: 300px;  
+       border-radius: 5px;
+   }
+
+   .form{
+       margin-top: 6px;
+   }
+
+   /* .bird{
+       display: flex;
+       flex-direction: row;
+
+   } */
+
+   .bird{
+       /* position: relative;
+       right:30px */
+   }
+   
+   #eye{
+       position: relative;
+       top:10px;
+       right:35px;
+  
+       /* padding:5px; */
+       
+
+   }
+
+   
+   .post{
+       position: relative;
+       left: 67%;
+       margin-top: 5px;
+   }
+
+   .btn{
+       height: 30px;
+       width: 300px;  
+       background-color: gray;
+       margin-top: 7px;
+       /* border: 1px solid gray; */
+       color: white;
+       border-style: solid;
+       border-width: 2px;
+       border-color: gray;
+
+       
+   }
+
+   .btn:hover{
+      background-color:blue;
+
+   }
+
+   .sim{
+       font-size: 12px;
+       margin-top: 13px;
+       padding-bottom: 5px;
+      
+   }
+
+   .blue{
+       color: rgb(43, 139, 170);
+   }
+  
+  
+
+
+
